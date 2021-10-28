@@ -1,0 +1,41 @@
+#body{
+    background-image: url("background.jpg");
+}
+
+#heading{
+    color: black;
+    font-family: 'Festive', cursive;
+    font-size: 60px;
+    text-shadow: rgb(180, 179, 233) 5px 5px;
+}
+
+canvas{
+    border-radius: 10px;
+    border:3px solid Black;
+    animation-name: example;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from{box-shadow:rgba(145, 250, 234) 5px 5px 18px ;}
+    to{box-shadow:rgba(102, 64, 189) 5px 5px 18px ;}
+}
+
+button{
+    margin-top: 450px;
+    background-color:rgba(0, 0, 0, 0) ;
+    border-radius: 30px;
+}
+
+div{
+    height: 500px;
+    width:400px;
+    box-shadow: black 5px 5px 18px;
+    margin-top: 20px;
+}
+
+#button_takesnap:hover{
+    background-color: silver;
+}
+
